@@ -1,0 +1,46 @@
+/**************** 全局清楚浏览器默认样式 *************/
+*,:after,:before{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    color: #333;
+    font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+    line-height: 1.42857;
+    background-color: #fff;
+}
+a,a:hover,a:focus {
+    text-decoration: none;
+    color:inherit;
+}
+input,input:hover,input:active,input:focus {
+    outline: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin:0;
+    font-size: 17
+}
+p{
+    margin: 0;
+}
+ul,ol,dl {
+    list-style:none;
+    margin:0;
+    padding:0;  
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+a {
+    text-decoration: none;
+    color:#333;
+}
+a:hover {
+    color:#333;
+    text-decoration: none;
+}
