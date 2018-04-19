@@ -27,8 +27,8 @@
                         <input type="text"  placeholder="手机号或邮箱">
                         <i class="fa fa-user"></i>
                     </div>
-                    <div class="input-prepend input-passwork">
-                        <input type="passwork" placeholder="密码">
+                    <div class="input-prepend input-password">
+                        <input type="password" placeholder="密码">
                         <i class="fa fa-lock"></i>
                     </div>
                     <div class="remember">
@@ -46,7 +46,6 @@
             <!--第三方的登录-->
             <div class="more-sign">
                 <p>社交账号登录</p>
-                <p>社交账号直接注册</p>
                 <ul>
                     <li>
                         <nuxt-link to="/">
@@ -70,24 +69,24 @@
 </template>
 
 <script>
-    export default {
+export default {
   // 修改当前页面的默认模板为sign.vue
   // 如果不写的话,默认是default.vue
-        layout: "sign",
+    layout: "sign",
   // 设置页面的标题以及描述,关键字等元信息
-        head: {
-            title: "登录 - 简书",
-            meta: [
-                { charset: "utf-8" },
-                { name: "keywords", content: "登录页面" },
-                { name: "description", content: "登录简书" },
-                { name: "author", content: "陈佳威" }
-            ]
-        },
-        data() {
-            return {
-
-            };
-        }
-    };
+    head: {
+        title: "登录 - 简书",
+        meta: [
+            { charset: "utf-8" },
+            { name: "keywords", content: "登录页面" },
+            { name: "description", content: "登录简书" },
+            { name: "author", content: "陈佳威" }
+        ]
+    },
+    data() {
+        return {
+            name:'登录',
+        };
+    }
+};
 </script>

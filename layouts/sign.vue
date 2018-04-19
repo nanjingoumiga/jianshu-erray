@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
     .sign {
         height:100%;
         font-size:14px;
