@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     .sign {
         height:100%;
         font-size:14px;
@@ -83,6 +83,10 @@ export default {
         position:relative;
         width:100%;
     }
+    .sign .main form .input-password {
+        border-bottom:1px solid #c8c8c8;
+        border-radius: 0 0 2px 2px;
+    }
     .sign .main form .input-prepend input {
         width:100%;
         height:50px;
@@ -90,6 +94,9 @@ export default {
         border:1px solid #c8c8c8;
         background-color:rgb(248,248,248);
         border-bottom:0;
+    }
+    .sign .main form .input-prepend .input-passwork{
+        border-bottom:1px solid #c8c8c8;
     }
     .sign .main form .input-prepend:first-of-type input {
         border-radius:2px 2px 0 0;

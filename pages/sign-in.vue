@@ -27,8 +27,8 @@
                         <input type="text"  placeholder="手机号或邮箱">
                         <i class="fa fa-user"></i>
                     </div>
-                    <div class="input-prepend">
-                        <input type="text"  placeholder="密码">
+                    <div class="input-prepend input-passwork">
+                        <input type="passwork" placeholder="密码">
                         <i class="fa fa-lock"></i>
                     </div>
                     <div class="remember">
@@ -46,6 +46,7 @@
             <!--第三方的登录-->
             <div class="more-sign">
                 <p>社交账号登录</p>
+                <p>社交账号直接注册</p>
                 <ul>
                     <li>
                         <nuxt-link to="/">
