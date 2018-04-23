@@ -14,6 +14,8 @@ import '..\\assets\\css\\animate.css'
 
 import '..\\assets\\css\\font-awesome.css'
 
+import '..\\assets\\css\\index.css'
+
 
 let layouts = {
 
