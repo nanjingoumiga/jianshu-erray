@@ -3,6 +3,11 @@ import { Nuxt, Builder } from 'nuxt'
 
 import api from './api'
 
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+
+Vue.use(ElementUI);
+
 const app = express()
 const host = process.env.HOST || '127.0.0.1'
 const port = process.env.PORT || 3333

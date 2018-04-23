@@ -31,6 +31,9 @@ ul,ol,dl {
 input,input:hover,input:active,input:focus {
     outline: none;
 }
+button{
+    outline:none;
+}
 button, input, select, textarea {
     font-family: inherit;
     font-size: inherit;
@@ -53,4 +56,25 @@ a:hover {
 }
 #default-template {
     height:100%;
+}
+
+/****************** 定义首页布局 ********************/
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container:after{
+    clear: both;
+}
+@media (min-width:992px){
+    .container {
+        width: 960px;
+    }
+}
+@media (max-width:1080px){
+    .container {
+        width: 750px;
+    }
 }
