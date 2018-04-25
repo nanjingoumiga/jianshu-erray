@@ -298,7 +298,7 @@
     </div>
 </template>
 <script>
-import myHeader from "../components/myHeader";
+import myHeader from "~/components/myHeader";
 export default {
   head: {
     title: "简书-创作你的创作",
@@ -315,8 +315,7 @@ export default {
   data() {
     return {
       name: "首页",
-      rotateDeg: 90,
-      
+      rotateDeg: 90,    
       a:true,
       b:false,
     };

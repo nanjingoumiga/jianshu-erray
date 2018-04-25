@@ -6,6 +6,7 @@ Vue.use(Router)
 const _7121a4d8 = () => import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 const _17c3a8b1 = () => import('..\\pages\\sign-up.vue' /* webpackChunkName: "pages/sign-up" */).then(m => m.default || m)
 const _032d523b = () => import('..\\pages\\sign-in.vue' /* webpackChunkName: "pages/sign-in" */).then(m => m.default || m)
+const _611604b4 = () => import('..\\pages\\p\\_id.vue' /* webpackChunkName: "pages/p-id" */).then(m => m.default || m)
 
 
 
@@ -55,6 +56,11 @@ export function createRouter () {
 			path: "/sign-in",
 			component: _032d523b,
 			name: "sign-in"
+		},
+		{
+			path: "/p/:id?",
+			component: _611604b4,
+			name: "p-id"
 		}
     ],
     fallback: false
