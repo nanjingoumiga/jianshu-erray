@@ -1,4 +1,4 @@
-# jianshu2
+# 简书仿写
 
 > Nuxt.js project
 
